@@ -1,0 +1,19 @@
+
+@import url('./style/article/style.css');
+@import url('./style/list/style.css');
+@import url('./style/form/style.css');
+.real::before{
+    content: 'R$';
+    margin: 0 2px;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    border: solid 1px;
+    margin: 0 auto;
+}
+td span{
+    border: solid 1px;
+    width: 100%;
+}

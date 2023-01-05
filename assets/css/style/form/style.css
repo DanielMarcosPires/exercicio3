@@ -1,0 +1,35 @@
+.form{
+    margin: 2em auto;
+    width: 30%;
+}
+.form div{
+    display: flex;
+    margin: 8px 0;
+}
+.form input[type="text"]{
+    outline: none;
+    border: none;
+    border-bottom: solid 1px;
+    width: 100%;
+}
+.form label{
+    transition: 0.2s;
+}
+.form label:focus-within{
+  color: transparent;
+}
+.form__register{
+    display: flex;
+    flex-direction: column;
+}
+.form__any{
+    display: flex;
+    align-items: center;
+}
+.form__any label{
+    width: 100%;
+}
+.form__any textarea{
+    resize: none;
+    width: 100%;
+}
